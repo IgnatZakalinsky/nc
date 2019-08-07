@@ -1,0 +1,8 @@
+.message {
+    display: flex;
+    align-items: center;
+}
+
+.message .area {
+    margin: 15px;
+}

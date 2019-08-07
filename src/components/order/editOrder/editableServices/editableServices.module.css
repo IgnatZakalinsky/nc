@@ -1,0 +1,9 @@
+.servicesOrder {
+    display: flex;
+    flex-direction: column;
+}
+.servicesOrder .addedInfo {
+}
+
+.servicesOrder .services {
+}

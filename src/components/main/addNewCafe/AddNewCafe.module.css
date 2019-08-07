@@ -1,0 +1,19 @@
+.addNewCafe {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addNewCafe .input_s {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addNewCafe .input_s img {
+    height: 64px;
+    width: 64px;
+}

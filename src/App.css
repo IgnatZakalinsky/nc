@@ -1,0 +1,17 @@
+.App {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.App .content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.App .footer {
+    background: #282828;
+}

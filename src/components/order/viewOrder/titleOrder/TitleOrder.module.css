@@ -1,0 +1,26 @@
+.title {
+    padding: 10px;
+    display: flex;
+}
+
+.title a {
+    display: flex;
+}
+
+.title a .name {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.title a .cafe {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.title .count {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.title .order {
+}

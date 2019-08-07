@@ -1,0 +1,36 @@
+.userInfo {
+
+}
+
+.userInfo .profileTitle {
+    display: flex;
+}
+
+.userInfo .profileTitle .name {
+    padding-left: 5px;
+}
+
+.userInfo .status {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.userInfo .statusTitle {
+    padding-left: 15px;
+    padding-right: 43px;
+}
+
+.userInfo .infoDiv {
+    padding-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.userInfo .infoDiv .info {
+    margin-right: 15px;
+}
+.userInfo .infoDiv .infoTitle {
+    padding-left: 15px;
+    padding-right: 15px;
+}

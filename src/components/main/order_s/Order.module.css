@@ -1,0 +1,30 @@
+.order {
+    margin-bottom: 5px;
+    border: 1px solid lime;
+}
+
+.order .title {
+    display: flex;
+}
+
+.order .title .name {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.order .title .count {
+    padding-left: 5px;
+}
+
+.order .mOrder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order .services .true {
+    color: lime;
+}
+
+.order .services .false {
+    color: red;
+}

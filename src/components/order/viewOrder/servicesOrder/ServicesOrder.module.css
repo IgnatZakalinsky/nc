@@ -1,0 +1,18 @@
+.servicesOrder {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.servicesOrder .addedInfo {
+}
+
+.servicesOrder .services {
+}
+
+.servicesOrder .services .true {
+    color: lime;
+}
+
+.servicesOrder .services .false {
+    color: red;
+}

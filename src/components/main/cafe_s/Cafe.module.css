@@ -1,0 +1,12 @@
+.cafe {
+    margin-bottom: 5px;
+    border: 1px solid lime;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafe .title {
+}
+
+.cafe .info {
+}

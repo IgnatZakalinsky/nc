@@ -1,0 +1,45 @@
+.chats {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chats .messages {
+    flex-grow: 1;
+}
+
+.chats .choose {
+    margin: 15px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .loginContent {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .loginContent .title {
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 650px) {
+    .chats {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

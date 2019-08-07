@@ -1,0 +1,22 @@
+.bar {
+    margin-top: 2px;
+    display: flex;
+}
+
+.bar .profile {
+    display: flex;
+    align-items: center;
+}
+
+.bar .profile img {
+    width: 50px;
+}
+
+.bar .profile b {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.bar .button {
+    margin-right: 5px;
+}
