@@ -1,6 +1,6 @@
 import * as axios from "axios";
 
-export const instance = axios.create({
+export let instance = axios.create({
     withCredentials: true,
     baseURL: 'https://social-network.samuraijs.com/api/1.0/',
     headers: {'API-KEY': 'f481cc10-95d4-4491-8cd3-ad1cb570cd4c'}
@@ -19,6 +19,13 @@ export const AuthAPI = {
     },
     logout() {
         return instance.post('auth/logout')
+    },
+    setAPIKey(key) {
+        instance = axios.create({
+            withCredentials: true,
+            baseURL: 'https://social-network.samuraijs.com/api/1.0/',
+            headers: {'API-KEY': key}
+        });
     },
 
 };

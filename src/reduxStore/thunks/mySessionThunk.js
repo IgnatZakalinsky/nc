@@ -52,4 +52,7 @@ export const login = (email, password) => (dispatch) => {
         }
     });
 };
+export const setAPIKey = (key) => (dispatch) => {
+    AuthAPI.setAPIKey(key);
+};
 
